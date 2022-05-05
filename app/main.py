@@ -25,7 +25,3 @@ def ReturnJSON():
                     'Wilder Days - Morgan Wade',
                     'Woman - Doja Cat' ]}
         return jsonify(data)
-
-
-if __name__ == "__main__":
-    app.run()
